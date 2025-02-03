@@ -1,0 +1,39 @@
+{
+  "name": "useful.js",
+  "version": "0.0.1",
+  "description": "Helpful and useful javascript functions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artembuslaev/useful.js.git"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "validate",
+    "validating",
+    "helpful",
+    "useful",
+    "functions",
+    "isUndefined",
+    "isNotUndefined",
+    "isNull",
+    "isNotNull"
+  ],
+  "author": "Artem Buslaev",
+  "license": "MIT",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3"
+  },
+  "homepage": "https://github.com/artembuslaev/useful.js#readme"
+}
