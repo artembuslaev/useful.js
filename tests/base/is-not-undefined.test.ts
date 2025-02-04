@@ -1,4 +1,4 @@
-import {isNotUndefined} from 'src/base';
+import {isNotUndefined} from 'base';
 
 describe('isNotUndefined', () => {
     it('should return false for undefined value', () => {
