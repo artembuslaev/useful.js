@@ -1,12 +1,12 @@
-# useful.js
+# readablefn
 
-[![Publish Package](https://github.com/artembuslaev/useful.js/actions/workflows/publish.yml/badge.svg)](https://github.com/artembuslaev/useful.js/actions/workflows/publish.yml)
+[![Publish Package](https://github.com/artembuslaev/readablefn/actions/workflows/publish.yml/badge.svg)](https://github.com/artembuslaev/readablefn/actions/workflows/publish.yml)
 
 A lightweight library that provides simple validation and conversion JavaScript functions to make your code more intuitive and readable.
 
 ## Installation Guide
 
-- `npm install useful.js` - adds the library to your project.
+- `npm install readablefn` - adds the library to your project.
 
 - Feel free to import the modules you need using `import` or `require`.
 
