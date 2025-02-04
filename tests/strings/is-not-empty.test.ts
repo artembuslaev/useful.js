@@ -1,4 +1,4 @@
-import {isNotEmpty} from 'src/strings';
+import {isNotEmpty} from 'strings';
 
 describe('isNotEmpty', () => {
     it('should return false for empty value', () => {

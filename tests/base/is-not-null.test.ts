@@ -1,4 +1,4 @@
-import {isNotNull} from 'src/base';
+import {isNotNull} from 'base';
 
 describe('isNull', () => {
     it('should return false for null value', () => {
