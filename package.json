@@ -7,11 +7,10 @@
     "url": "https://github.com/artembuslaev/readablefn.git"
   },
   "main": "dist/lib/index.js",
-  "exports": [
-    "./dist/lib/base/index.js",
-    "./dist/lib/string/index.js"
-  ],
-  "types": "dist/types/index.d.ts",
+  "exports": {
+    "./base": "./dist/base/index.js",
+    "./strings": "./dist/string/index.js"
+  },
   "files": [
     "dist"
   ],
