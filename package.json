@@ -1,10 +1,10 @@
 {
-  "name": "useful.js",
+  "name": "readablefn",
   "version": "0.0.1",
   "description": "Helpful and useful javascript functions",
   "repository": {
     "type": "git",
-    "url": "https://github.com/artembuslaev/useful.js.git"
+    "url": "https://github.com/artembuslaev/readablefn.git"
   },
   "main": "dist/index.js",
   "files": [
@@ -35,5 +35,5 @@
     "ts-jest": "^29.2.5",
     "typescript": "^5.7.3"
   },
-  "homepage": "https://github.com/artembuslaev/useful.js#readme"
+  "homepage": "https://github.com/artembuslaev/readablefn#readme"
 }
