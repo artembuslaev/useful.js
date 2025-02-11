@@ -1,13 +1,12 @@
 {
   "name": "readablefn",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Helpful and useful javascript functions",
   "repository": {
     "type": "git",
     "url": "https://github.com/artembuslaev/readablefn.git"
   },
-  "main": "dist/lib/index.js",
-  "types": "dist/types/index.d.ts",
+  "main": "dist/index.js",
   "files": [
     "dist"
   ],
