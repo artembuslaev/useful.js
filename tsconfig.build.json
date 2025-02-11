@@ -9,7 +9,6 @@
     "declaration": true,
     "declarationDir": "dist/types",
     "outDir": "dist/lib",
-    "baseUrl": "./src"
   },
   "include": ["src"]
 }
