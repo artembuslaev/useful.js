@@ -1,2 +1,2 @@
-export {isNotNull, isNotUndefined, isNull, isUndefined} from './base';
-export {isEmpty as isEmptyString, isNotEmpty as isNotEmptyString} from './strings';
+export * as Base from './base';
+export * as Strings from './strings';
