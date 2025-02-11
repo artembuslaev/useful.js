@@ -1,2 +1,2 @@
-export * as Base from './base';
+export * from './base';
 export * as Strings from './strings';
