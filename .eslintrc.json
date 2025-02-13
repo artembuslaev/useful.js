@@ -1,0 +1,57 @@
+{
+  "root": true,
+  "overrides": [
+    {
+      "files": [
+        "*.ts"
+      ],
+      "parserOptions": {
+        "ecmaVersion": "latest",
+        "project": [
+          "./tsconfig.json"
+        ],
+        "createDefaultProgram": true,
+        "warnOnUnsupportedTypeScriptVersion": false
+      },
+      "extends": [
+        "plugin:import/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "airbnb-typescript/base"
+      ],
+      "rules": {
+        "import/no-unresolved": "off",
+        "import/prefer-default-export": "off",
+        "class-methods-use-this": "off",
+        "@typescript-eslint/lines-between-class-members": [
+          "error",
+          {
+            "enforce": [
+              { "blankLine": "never", "prev": "field", "next": "field" },
+              { "blankLine": "always", "prev": "method", "next": "*" }
+            ]
+          }
+        ],
+        "@typescript-eslint/unbound-method": [
+          "error",
+          {
+            "ignoreStatic": true
+          }
+        ],
+        "import/no-extraneous-dependencies": [
+          "error", 
+          {
+            "devDependencies": true
+          }
+        ],
+        "max-len": [
+          "error",
+          {
+            "code": 110
+          }
+        ],
+        "eol-last": ["error", "always"],
+        "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }]
+      }
+    }
+  ]
+}
