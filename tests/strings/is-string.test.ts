@@ -1,8 +1,8 @@
-import { isString } from "strings";
+import { isString } from 'strings';
 
 describe('isString', () => {
   it('should return true for empty value', () => {
-      expect(isString('')).toBe(true);
+    expect(isString('')).toBe(true);
   });
 
   it('should return true for string value', () => {
@@ -20,4 +20,4 @@ describe('isString', () => {
   it('should return false for object value', () => {
     expect(isString({ name: 'test' })).toBe(false);
   });
-})
+});
