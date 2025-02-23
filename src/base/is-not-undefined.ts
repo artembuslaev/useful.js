@@ -1,5 +1,5 @@
-import {isUndefined} from "./is-undefined";
+import { isUndefined } from './is-undefined';
 
-export function isNotUndefined(value: any): boolean {
-    return !isUndefined(value);
+export function isNotUndefined(value: unknown): boolean {
+  return !isUndefined(value);
 }

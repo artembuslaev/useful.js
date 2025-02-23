@@ -1,7 +1,7 @@
-import {isUndefined} from 'base';
+import { isUndefined } from 'base';
 
 describe('isUndefined', () => {
-    it('should return true for undefined value', () => {
-        expect(isUndefined(undefined)).toBe(true);
-    })
-})
+  it('should return true for undefined value', () => {
+    expect(isUndefined(undefined)).toBe(true);
+  });
+});
