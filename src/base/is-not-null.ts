@@ -1,5 +1,5 @@
-import {isNull} from "./is-null";
+import { isNull } from './is-null';
 
-export function isNotNull(value: any): boolean {
-    return !isNull(value);
+export function isNotNull<T>(value: T): value is NonNullable<T> {
+  return !isNull(value);
 }
