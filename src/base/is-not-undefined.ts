@@ -1,5 +1,7 @@
 import { isUndefined } from './is-undefined';
 
-export function isNotUndefined(value: unknown): boolean {
+type NotUndefined<T> = T extends undefined ? never : T;
+
+export function isNotUndefined<T>(value: T): value is NotUndefined<T> {
   return !isUndefined(value);
 }
